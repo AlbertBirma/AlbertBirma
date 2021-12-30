@@ -9,7 +9,7 @@ import collections as colt
 list_num = []
 
 def Counter():
-    str_input = input('Введите предложение: ').split()
+    str_input = input('Enter the input sentence: ').split()
     for element in str_input:
         list_num.append(len(element))
     count_dict = dict(colt.Counter(list_num))
