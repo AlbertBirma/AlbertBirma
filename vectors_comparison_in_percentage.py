@@ -1,3 +1,5 @@
+# Input data arrays may be a specific quantity of ratings by criteria. For example : I am analysing my friend with major criteria for me :
+#I put 'one' in array if I found one of major features and I put 'zero' if I can't find this feature. It's simple , try it.
 import numpy as np 
 
 users_stats = np.array([], np.int32)
